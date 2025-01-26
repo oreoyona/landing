@@ -1,59 +1,44 @@
-# Inamizi
+## README.md : Landing Page Angular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.0.
+### Présentation du Projet
 
-## Development server
+Cette landing page a été développée à l'aide d'Angular, un framework puissant et populaire pour la création d'applications web. Elle a pour objectif de promouvoir un produit ou un service, etc...
 
-To start a local development server, run:
+### Technologies Utilisées
 
-```bash
-ng serve
-```
+* **Angular** : Framework principal pour la construction de l'interface utilisateur et la gestion des composants.
+* **TypeScript, Signal, Angular Material Design**
+* **Angular CLI, Visual Studio Code, Git**
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+### Fonctionnalités Principales
 
-## Code scaffolding
+* **navigation intuitive, formulaire de contact, animations, intégration de services tiers**
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+### Installation et Utilisation
 
-```bash
-ng generate component component-name
-```
+1. **Cloner le dépôt:**
+   ```bash
+   git clone https://oreoyona.com/landing.git
+   ```
+2. **Installer les dépendances:**
+   ```bash
+   cd landing-page
+   npm install
+   ```
+3. **Lancer le serveur de développement:**
+   ```bash
+   ng serve
+   ```
+   L'application sera alors accessible à l'adresse `http://localhost:4200/`.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+### Démonstration
 
-```bash
-ng generate --help
-```
+Veuillez voir la versionnlive du site: https://oreoyona.github.io/landing/
 
-## Building
+### Améliorations Futures
 
-To build the project run:
+* **optimisation des performances, ajout de nouvelles fonctionnalités, refonte de l'interface utilisateur,**
 
-```bash
-ng build
-```
+### Conclusion
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Ce projet m'a permis de mettre en pratique mes compétences en développement Angular et de créer une application web moderne et performante. J'ai particulièrement apprécié 

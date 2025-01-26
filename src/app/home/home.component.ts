@@ -12,6 +12,6 @@ export class HomeComponent implements OnInit{
   circonscription = `LUBUDI`
   banner = "inamizi.webp";
   ngOnInit(){
-
+    
   }
 }

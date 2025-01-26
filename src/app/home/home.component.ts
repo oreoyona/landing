@@ -10,7 +10,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 export class HomeComponent implements OnInit{
   citation = `Être parlementaire, pour moi, c'est être capable de défendre valablement nos électeurs et d'être présent dans leur cœur à travers des visites régulières sur le terrain.`
   circonscription = `LUBUDI`
-  banner = "/inamizi.webp";
+  banner = "inamizi.webp";
   ngOnInit(){
 
   }

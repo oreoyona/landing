@@ -1,0 +1,19 @@
+<nav class="bigger-screen">
+    <button mat-button>{{"Acceuil" | uppercase}}</button>
+    <button mat-button>{{"A Propos" | uppercase}}</button>
+    <button mat-button>{{"Contact" | uppercase}}</button>  
+</nav>
+
+<nav class="mobile">
+    @if(mobile){
+
+        <button mat-button (click)="openDialog()">
+            @if(showMenu()){
+                <mat-icon >menu</mat-icon>
+
+            }
+        </button>
+    }
+</nav>
+
+

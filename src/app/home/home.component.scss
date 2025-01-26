@@ -1,0 +1,93 @@
+@use '../variables.scss';
+@media (max-width: 700px) {
+    main {
+        display: flex !important;
+        flex-direction: column-reverse;
+
+        .round{
+            display: none !important;
+        }
+    }
+}
+
+
+main {
+    overflow: hidden;
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    align-items: center;
+
+    .left {
+        grid-column: 1/2;
+    }
+
+    .right {
+        grid-column: 2/2;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: flex-end;
+        margin-right: 12px;
+        img {
+            height: auto;
+            max-width: 250px;
+        }
+    }
+
+
+
+
+
+}
+
+.citation-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    #citation{
+        font-size: 1.2em;
+    }
+}
+#citation-author{
+    font-weight: 800;
+}
+
+#circonscription{
+    font-size: 1.5em;
+    font-stretch: expanded;
+   letter-spacing: 4px;
+}
+
+.presentation{
+    margin: 12px;
+   padding: 10px 17px;
+   text-align: center;
+   display: flow;
+
+   :nth-child(2){
+    display: flex;
+    align-self: center;
+    justify-self: center;
+   }
+}
+
+blockquote{
+    position: relative;
+}
+.citation-bracket{
+    font-size: 4em;
+    
+}
+
+.round{
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    position: absolute;
+    left: -15px;
+    bottom: 50px;
+}

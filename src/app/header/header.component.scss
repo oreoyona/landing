@@ -1,0 +1,21 @@
+@media (max-width: 760px) {
+    .bigger-screen {
+        display: none !important;
+    }
+
+    .mobile {
+        display: flex !important;
+        justify-content: flex-end;
+        align-items: center;
+    }
+}
+
+button {
+    font-weight: 900 !important;
+}
+
+.mobile {
+    display: none;
+    position: relative;
+
+}

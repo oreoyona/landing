@@ -1,0 +1,44 @@
+/* You can add global styles to this file, and also import other style files */
+$bg-color: #E9ECD7;
+$pink: #CC4184;
+$blue: #2A528D;
+@media (max-width: 700px) {
+    html{
+       background-color: $bg-color !important;
+    }
+}
+html{
+    background-color: $pink;
+}
+
+body{
+    background-color: $bg-color;
+}
+
+
+button, #citation-author{
+    color: $blue !important;
+    
+}
+
+.title, .citation-banner{
+    color: $pink;
+}
+.presentation{
+  background-color: $pink;  
+  color: $bg-color;
+  display: flex;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  #circonscription{
+    font-weight: 900;
+  }
+}
+
+.citation-bracket{
+  color: $blue;
+}
+
+.round{
+  background-color: $pink;
+}
